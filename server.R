@@ -2,7 +2,7 @@
 library(shiny)
 library(datasets)
 
-islandsData <- islands
+islandsData <- HairEyeColor
 
 shinyServer(function(input, output) {
 })
