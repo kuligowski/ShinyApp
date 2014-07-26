@@ -40,12 +40,9 @@ shinyServer(function(input, output) {
   })
   
   # Generate a summary of the dataset
-  output$characteristicsSummary <- renderPrint({
+  
+  output$characteristicsHead <- renderPrint({
     summary(characteristicsData)
   })
   
-  output$characteristicsHead <- renderPrint({
-    head(characteristicsData)
-  })
-  
-})                                                                                                                          
+}) 
