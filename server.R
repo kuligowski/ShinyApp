@@ -3,6 +3,7 @@ library(shiny)
 library(datasets)
 require(graphics)
 
+
 characteristicsData <- HairEyeColor
 
 shinyServer(function(input, output) {
